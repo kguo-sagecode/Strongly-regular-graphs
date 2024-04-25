@@ -8,3 +8,14 @@ For example, there are 4466 strongly regular graphs with parameters (63,32,16,16
 Krčadinac, Vedran. (2002). Steiner 2-designs S(2,4,28) with nontrivial automorphisms. Glasnik Matematicki (glasnik@math.hr); Vol.37 No.2. 37. 
 
 Here, we have compute the 4466 strongly regular graphs which are the block graphs of these 4466 Steiner designs and stored them as the graph6 string of the canonical labelling. Two graph are isomorphic if and only if the graph6 strings of the canonical labelling are equal. 
+
+In "SRG63-32-16-16-S-2-4-28.txt", each line is a graph6 string (followed by "\n").
+
+To read this using SageMath, do something like:
+
+    sage: f = open("SRG63-32-16-16-S-2-4-28.txt","r")
+    sage: g6s = f.readlines()
+    sage: f.close()
+    sage: gs = [Graph(g.strip("\n")) for g in g6s]
+
+This will produce a list of the graph objects, called gs. 
