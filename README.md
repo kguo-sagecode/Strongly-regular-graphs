@@ -19,3 +19,11 @@ To read this using SageMath, do something like:
     sage: gs = [Graph(g.strip("\n")) for g in g6s]
 
 This will produce a list of the graph objects, called gs. 
+
+#File names and contents
+
+SRG63-32-16-16-S-2-4-28.txt
+4466 strongly regular graphs with parameters (63,32,16,16), coming from block graphs of block designs S(2, 4, 28). 
+
+SRG63-32-16-16-quasi.txt
+These are the 3511 strongly regular graphs that are construct as the intersection-6 graphs (vx set = block, adjacent if intersect in 6 points) of the 89559 quasi-symmetric 2-designs with (v,b,r,k,lambda) = (28, 63, 27, 12, 11), where every pair of blocks intersects in either 4 or 6 points, which are given on [Vedran Krcadinac's quasi-symmetric designs website](https://web.math.pmf.unizg.hr/~krcko/results/quasisym.html).
