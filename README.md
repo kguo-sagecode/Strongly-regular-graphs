@@ -20,7 +20,7 @@ To read this using SageMath, do something like:
 
 This will produce a list of the graph objects, called gs. 
 
-#File names and contents
+## File names and contents
 
 SRG63-32-16-16-S-2-4-28.txt
 4466 strongly regular graphs with parameters (63,32,16,16), coming from block graphs of block designs S(2, 4, 28). 
