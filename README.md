@@ -7,6 +7,12 @@ For example, the parameter class (37,18,8,9) is not known to be fully classified
 
 ## (45,22,10,12) 
 
+This is the smallest order of a conference graph whose order is not a prime power. I constructed the graph following the construction of Mathon:
+
+Mathon R. Symmetric Conference Matrices of Order pq2 + 1. Canadian Journal of Mathematics. 1978;30(2):321-331. doi:10.4153/CJM-1978-029-1
+
+Since, up to isomorphism, there is a unique conference graph of order $5$ and also a skew-Latin square, Mathon's construction results in a single graph, which is the first graph in the file. 
+
 ## (63,32,16,16)
 There are 4466 strongly regular graphs with parameters (63,32,16,16), coming from block graphs of block designs (the vertices are blocks and are adjacent if they intersect at a point). These block designs have parameters (v,b,r,k,lambda) = (28, 63, 9, 4, 1), which are Steiner design S(2, 4, 28) or partial geometries pg(3,8,4). The 4466 with non-trivial automorphism groups are given on [Vedran Krcadinac's website](https://web.math.pmf.unizg.hr/~krcko/results/steiner.html). See also:
 
