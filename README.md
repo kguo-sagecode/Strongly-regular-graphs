@@ -40,3 +40,5 @@ This will produce a list of the graph objects, called gs.
 - SRG63-32-16-16-quasi.txt
 
 These are the 3511 strongly regular graphs that are construct as the intersection-6 graphs (vx set = block, adjacent if intersect in 6 points) of the 89559 quasi-symmetric 2-designs with (v,b,r,k,lambda) = (28, 63, 27, 12, 11), where every pair of blocks intersects in either 4 or 6 points, which are given on [Vedran Krcadinac's quasi-symmetric designs website](https://web.math.pmf.unizg.hr/~krcko/results/quasisym.html).
+
+All graphs are given as graph6 strings in their canonical order.
